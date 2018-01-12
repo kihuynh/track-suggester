@@ -4,11 +4,12 @@ $(document).ready(function () {
     var personality = $("select#personality").val();
     var phone = $("select#phone").val();
     var frontback = $("select#frontback").val();
+    var name = $("#name").val();
 
     if ((personality === "Creative") && (phone === "Android" || phone === "iPhone") &&  (frontback === "Front-end")) {
       console.log("css path")
       $("#css").show();
-    } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  || (frontback === "Back-end")) {
+    } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  && (frontback === "Back-end")) {
       console.log("does if statement working?")
       $("#android").show();
       console.log("android path")
@@ -19,7 +20,7 @@ $(document).ready(function () {
         $("#everything").show();
         console.log("Everything was false so I show everything")
     }
-
+    $("span.insert").text(name);
     console.log("I made it to the end");
     event.preventDefault();
   });

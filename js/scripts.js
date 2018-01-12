@@ -1,11 +1,13 @@
 $(document).ready(function () {
   $("form#fields").submit(function(event) {
 
+    var personality = $(".radio#personality").val();
+    var phone = $("select#phone").val();
 
 
-    if (SELECTORS ADDED AND SHOW TO PATH) {
+    if (phone === "Android") {
       console.log("does if statement working?")
-      $(".result#css").show();
+      $("#android").show();
       console.log("It's the css result!")
     } else {
         $(".result").show();

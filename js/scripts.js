@@ -12,14 +12,13 @@ $(document).ready(function () {
       console.log("does if statement working?")
       $("#android").show();
       console.log("It's the css result!")
+    } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") && (frontback = "FULLSTACK")) {
+      console.log("ruby path")
+      $("#ruby").show();
     } else {
-        console.log("last else")
         $("#everything").show();
         console.log("Everything was false so I show everything")
     }
-
-
-    // $(".result").show();
 
     console.log("I made it to the end");
     event.preventDefault();

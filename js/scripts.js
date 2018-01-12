@@ -20,6 +20,7 @@ $(document).ready(function () {
         $("#everything").show();
         console.log("Everything was false so I show everything")
     }
+
     $("span.insert").text(name);
     console.log("I made it to the end");
     event.preventDefault();

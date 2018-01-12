@@ -12,7 +12,7 @@ Webpage asking the user various questions about themselves and based on their an
 
 * Open terminal
 * input $ git clone https://github.com/kihuynh/track-suggester.git
-Now repository has been cloned onto your computer!
+* Now repository has been cloned onto your computer!
 
 
 ## Support and contact details

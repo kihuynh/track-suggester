@@ -6,13 +6,13 @@ $(document).ready(function () {
     var frontback = $("select#frontback").val();
 
     if ((personality === "Creative") && (phone === "Android" || phone === "iPhone") &&  (frontback === "Front-end")) {
-      console.log("personality if")
+      console.log("css path")
       $("#css").show();
-    } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  && (frontback === "Back-end")) {
+    } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  || (frontback === "Back-end")) {
       console.log("does if statement working?")
       $("#android").show();
-      console.log("It's the css result!")
-    } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") && (frontback === "FULLSTACK")) {
+      console.log("android path")
+    } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") || (frontback === "FULLSTACK")) {
       console.log("ruby path")
       $("#ruby").show();
     } else {

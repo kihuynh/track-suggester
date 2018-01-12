@@ -21,7 +21,7 @@ $(document).ready(function () {
         console.log("Everything was false so I show everything")
     }
 
-    $("span.insert").text(name);
+    $("span.insert").text(name.toUpperCase());
     console.log("I made it to the end");
     event.preventDefault();
   });

@@ -1,3 +1,13 @@
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+  min-height: 100%;
+}
+
 .title {
   text-align: center;
 }
@@ -7,6 +17,7 @@
   border-style: solid;
   padding: 50px;
   margin-top: 100px;
+  margin-left: 50px;
 }
 
 span {

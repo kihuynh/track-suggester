@@ -14,11 +14,9 @@ $(document).ready(function () {
       $("#ruby").show();
     } else {
         $("#everything").show();
-
     }
 
     $("span.insert").text(name.toUpperCase());
-
     event.preventDefault();
   });
 });

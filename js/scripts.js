@@ -10,7 +10,6 @@ $(document).ready(function () {
       console.log("css path")
       $("#css").show();
     } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  && (frontback === "Back-end")) {
-      console.log("does if statement working?")
       $("#android").show();
       console.log("android path")
     } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") || (frontback === "FULLSTACK")) {
@@ -18,7 +17,7 @@ $(document).ready(function () {
       $("#ruby").show();
     } else {
         $("#everything").show();
-        console.log("Everything was false so I show everything")
+        console.log("else dumbtruck")
     }
 
     $("span.insert").text(name.toUpperCase());

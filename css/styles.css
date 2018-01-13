@@ -14,6 +14,7 @@ body {
 .title {
   text-align: center;
   padding-top: 20px;
+  border:
 }
 
 #css, #android, #ruby, #everything {
@@ -32,4 +33,5 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 50px;
+  padding-bottom: 15px;
 }

@@ -8,8 +8,12 @@ body {
   min-height: 100%;
 }
 
+.row {
+  padding-top: 50px;
+}
 .title {
   text-align: center;
+  padding-top: 20px;
 }
 
 #css, #android, #ruby, #everything {

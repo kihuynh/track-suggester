@@ -27,3 +27,9 @@ body {
 span {
   font-weight: bold;
 }
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}

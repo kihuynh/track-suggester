@@ -10,7 +10,7 @@ $(document).ready(function () {
       $("#css").show();
     } else if ((personality === "Technical") && (phone === "Android" || phone === "iPhone")  && (frontback === "Back-end")) {
       $("#android").show();
-    } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") || (frontback === "FULLSTACK")) {
+    } else if ((personality === "Technical" || personality === "Creative") && (phone === "Android" || phone === "iPhone") || (frontback === "I WANNA FULLSTACK")) {
       $("#ruby").show();
     } else {
         $("#everything").show();
